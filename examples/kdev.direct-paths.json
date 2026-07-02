@@ -1,0 +1,8 @@
+{
+  "mode": "out_of_tree",
+  "kernel_root": "/home/user/src/linux",
+  "kernel_build": "/home/user/src/linux/out/qemu-arm64",
+  "arch": "arm64",
+  "cross_compile": "aarch64-linux-gnu-",
+  "nav_scope": "project"
+}

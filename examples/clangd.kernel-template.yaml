@@ -1,0 +1,19 @@
+CompileFlags:
+  CompilationDatabase: .
+  Remove:
+    - -fconserve-stack
+    - -fno-allow-store-data-races
+    - -mpreferred-stack-boundary=*
+    - -mno-*
+    - -mindirect-branch*
+    - -mindirect-branch-register
+    - -fmin-function-alignment=*
+  Add:
+    - -Wno-unknown-warning-option
+    - -Wno-ignored-optimization-argument
+
+Completion:
+  HeaderInsertion: Never
+
+Index:
+  Background: Build

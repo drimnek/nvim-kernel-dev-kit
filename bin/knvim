@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# SPDX-License-Identifier: GPL-3.0-or-later
+set -euo pipefail
+
+export NVIM_APPNAME="${NVIM_APPNAME:-nvim-kernel}"
+export KDEV_FORCE="${KDEV_FORCE:-1}"
+
+exec nvim "$@"

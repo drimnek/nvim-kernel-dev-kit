@@ -1,0 +1,17 @@
+{
+  "default": "qemu-arm64",
+  "targets": {
+    "qemu-arm64": {
+      "kernel_root": "~/src/linux",
+      "kernel_build": "~/src/linux/out/qemu-arm64",
+      "arch": "arm64",
+      "cross_compile": "aarch64-linux-gnu-"
+    },
+    "local-x86": {
+      "kernel_root": "~/src/linux",
+      "kernel_build": "~/src/linux/out/x86_64",
+      "arch": "x86_64",
+      "cross_compile": ""
+    }
+  }
+}

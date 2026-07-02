@@ -1,0 +1,5 @@
+{
+  "target": "qemu-arm64",
+  "mode": "external_dir",
+  "nav_scope": "all"
+}

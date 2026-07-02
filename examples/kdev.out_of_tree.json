@@ -1,0 +1,5 @@
+{
+  "target": "qemu-arm64",
+  "mode": "out_of_tree",
+  "nav_scope": "project"
+}
